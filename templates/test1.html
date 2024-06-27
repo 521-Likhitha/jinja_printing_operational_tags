@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>These are operational tags</h1>
+    {% if age < 5 %}
+     <h2>{{name}} is kid</h2>
+    {% elif age < 18 %}
+    <h1>{{name}} is teenager</h1>
+    {% else %}
+    <h1>{{name}} is adult</h1>
+    {% endif %}
+</body>
+</html>

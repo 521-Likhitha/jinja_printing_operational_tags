@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        These are operational tags
+    </h1>
+    {% if age > 0 and age < 30 %}
+         {% if age < 15 %}
+             <h1>children games</h1>
+        {% else %}
+            <h1>exercise</h1>
+        {% endif %}
+    {% else %}
+        {% if age > 30 and age < 45 %}
+            <h1>strategical games</h1>  
+        {% else %}  
+           <h1>Devoational Movies</h1>
+        {% endif %}
+    {% endif %}
+        
+</body>
+</html>

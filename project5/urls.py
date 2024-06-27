@@ -20,4 +20,7 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('jinja_print/',jinja_print,name='jinja_print'),
+    path('test1/',test1,name='test1'),
+    path('ope/',ope,name='ope'),
+    path('loop/',loop,name='loop'),
 ]
